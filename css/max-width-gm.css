@@ -1,0 +1,248 @@
+/* lg */
+@media (max-width: 1199px) {
+  .container {
+    max-width: 1170px;
+  }
+  .w-lg-1 {
+    width: 100%;
+  }
+  .flex-lg-wrap {
+    flex-wrap: wrap;
+  }
+  .featured-classes h2::before,
+  .expert-trainers-title h2::before,
+  .store-title h2::before,
+  .news-title h2::before {
+    width: 40%;
+  }
+  /* header */
+  header nav ul li:nth-child(10) {
+    display: none;
+  }
+  /* CLASS SCHEDULE */
+  .schedule-day ul li {
+    margin: 10px;
+  }
+  /*  gallery*/
+  .gallery-title {
+    margin-bottom: 10px;
+  }
+}
+/* md */
+@media (max-width: 991px) {
+  .container {
+    max-width: 960px;
+  }
+  .w-md-1 {
+    width: 100%;
+  }
+  .w-md-2 {
+    width: 50%;
+  }
+  .jus-md-between {
+    justify-content: space-between;
+  }
+  .d-md-block {
+    display: block;
+  }
+
+  .flex-md-col {
+    flex-direction: column;
+  }
+  /* header */
+  header {
+    padding: 18px 0;
+  }
+  header nav {
+    position: fixed;
+    top: 0;
+    left: -200%;
+    bottom: 0;
+    z-index: 8;
+    width: 350px;
+    overflow-y: scroll;
+    background-color: var(--theme-white);
+    transition: 0.6s all;
+  }
+  header .nav-manu-bar {
+    left: 0;
+    transition: 0.6s all;
+  }
+  header nav ul li:nth-child(10) {
+    display: none;
+  }
+  header nav ul li:nth-child(9) {
+    display: none;
+  }
+  header .toggle-manu {
+    display: block;
+    border: 1px solid var(--theme-orange);
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  header nav ul li {
+    border-bottom: 1px solid var(--theme-black);
+    margin: 0px 20px;
+  }
+  header nav ul li a {
+    padding: 15px 0;
+    margin: 0;
+    width: 100%;
+  }
+  .manu-nav {
+    padding: 18px 15px;
+    border-bottom: 1px solid var(--theme-black);
+  }
+  header nav li .dropdwon {
+    position: static;
+    display: none;
+    transition: none;
+    opacity: 1;
+    transform: scaleY(1);
+    visibility: visible;
+  }
+  header nav li .shop-manu,
+  .dropdwon li .dropdwon-menu,
+  header nav li .dropdwon-megamenu {
+    opacity: 1;
+    transform: scaleY(1);
+    visibility: visible;
+    display: none;
+  } 
+  .dropdwon ul li:last-child {
+    border: none;
+  }
+  .dropdwon ul li a {
+    border: none;
+  }
+  /* about */
+  .about {
+    background-image: none;
+  }
+  .about-img::before {
+    display: none;
+  }
+
+  /* being body */
+  .body-content {
+    text-align: center;
+    margin: 30px 0;
+  }
+  /* table */
+  .table-content {
+    margin: 15px;
+  }
+  /* footer */
+  .footer-items {
+    margin: 15px;
+  }
+}
+/* sm */
+@media (max-width: 767px) {
+  .container {
+    max-width: 720px;
+  }
+  .d-sm-none {
+    display: none;
+  }
+  .w-sm-1 {
+    width: 100%;
+  }
+  .flex-sm-col {
+    flex-direction: column;
+  }
+  .text-sm-center {
+    text-align: center;
+  }
+  .align-sm-center {
+    align-items: center;
+  }
+  .flex-sm-wrap {
+    flex-wrap: wrap;
+  }
+
+  /* banner */
+  .banner-title p {
+    margin: 40px 10px;
+    max-width: none;
+  }
+  /* about */
+
+  .about-content ul i {
+    margin: 0;
+  }
+  .about-content ul > a {
+    margin: 0 0 15px 0;
+  }
+  /* schedule-content */
+  .schedule-content ul li:nth-child(4) {
+    text-align: center;
+  }
+  .schedule-content ul li:nth-child(1) {
+    padding: 0;
+  }
+  .schedule-content ul li {
+    margin: 5px 0;
+  }
+  /* footer */
+  .footer-items {
+    margin: 15px 0;
+  }
+}
+/* xs */
+@media (max-width: 575px) {
+  .container {
+    max-width: 540px;
+  }
+  .w-xs-1 {
+    width: 100%;
+  }
+  .flex-xs-col {
+    flex-direction: column;
+  }
+  .mx-xs-auto {
+    margin: 0 auto;
+  }
+  .text-xs-cetner {
+    text-align: center;
+  }
+  /* banner */
+  .banner-title h1 {
+    font-size: 60px;
+  }
+  .img-content {
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .img-content h3 {
+    max-width: none;
+    font-size: 30px;
+  }
+  /* being body */
+  .body-content h3 {
+    font-size: 50px;
+  }
+  .body-content h4 {
+    font-size: 30px;
+    letter-spacing: normal;
+  }
+  /* client */
+  .client-items h4::after {
+    display: none;
+  }
+  .client-items img {
+    margin: 0 0 15px 0;
+  }
+  /* table */
+  .table-content {
+    margin: 15px 0;
+  }
+  /* gallary */
+  .gallery-items {
+    margin: 10px 0;
+  }
+}
